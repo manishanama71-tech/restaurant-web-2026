@@ -1,0 +1,18 @@
+{
+  "users": [],
+  "reservations": [
+    {
+      "id": "1341b022-d673-4c6f-8b7f-68276962829d",
+      "userId": null,
+      "name": "Manisha Nama",
+      "email": "manishanama71@gmail.com",
+      "phone": "+91 - 8559888101",
+      "date": "2026-10-21",
+      "time": "1:00 PM",
+      "guests": "2 guests",
+      "notes": "dinner",
+      "createdAt": "2026-10-07T10:55:51.732Z"
+    }
+  ],
+  "orders": []
+}

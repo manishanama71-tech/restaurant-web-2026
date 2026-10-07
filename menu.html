@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu — PetPooja</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header"><a class="logo" href="index.html">PetPooja<span>✳</span></a><button class="menu-toggle"
+            aria-label="Open navigation" aria-expanded="false">☰</button>
+        <nav class="main-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html"
+                aria-current="page">Menu</a><a href="special.html">Special</a><a href="gallery.html">Gallery</a><a
+                href="contact.html">Contact</a></nav>
+        <div class="header-actions"><a class="account-link" href="login.html">Sign in</a><a class="cart-link"
+                href="checkout.html">Bag <span class="cart-count">0</span></a><a class="nav-cta"
+                href="reservation.html">Reserve a table</a></div>
+    </header>
+    <main>
+        <section class="page-hero compact">
+            <p class="eyebrow light">FROM OUR KITCHEN</p>
+            <h1>A menu made for<br><em>good company.</em></h1>
+            <p>Seasonal favourites, made fresh in Jaipur.</p>
+        </section>
+        <section class="section-wrap menu-page">
+            <div class="menu-intro">
+                <p class="eyebrow">THE PetPooja MENU</p>
+                <p>Prices in INR. Please tell our team about any allergies or dietary needs.</p><a class="cart-shortcut"
+                    href="checkout.html">Your bag <span class="cart-count">0</span> →</a>
+            </div>
+            <div class="product-grid menu-products">
+                <article class="product-card">
+                    <div class="product-image"><img
+                            src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=80"
+                            alt="Garden salad with fresh vegetables"><span class="product-tag">SEASONAL</span></div>
+                    <div class="product-info">
+                        <div>
+                            <h3>Garden Fresh Salad</h3>
+                            <p>Market greens, cherry tomatoes, olives and our bright house dressing.</p>
+                        </div><strong>₹320</strong>
+                    </div><button class="add-button" data-add="salad">Add to bag <span>+</span></button>
+                </article>
+                <article class="product-card">
+                    <div class="product-image"><img
+                            src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=700&q=80"
+                            alt="Creamy truffle pasta"><span class="product-tag">HOUSE FAVOURITE</span></div>
+                    <div class="product-info">
+                        <div>
+                            <h3>Creamy Truffle Pasta</h3>
+                            <p>Handmade pasta, truffle cream and a little parmesan.</p>
+                        </div><strong>₹480</strong>
+                    </div><button class="add-button" data-add="pasta">Add to bag <span>+</span></button>
+                </article>
+                <article class="product-card">
+                    <div class="product-image"><img
+                            src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=700&q=80"
+                            alt="Chocolate and caramel donuts"><span class="product-tag">SWEET FINISH</span></div>
+                    <div class="product-info">
+                        <div>
+                            <h3>Classic Donuts</h3>
+                            <p>Soft, hand-finished donuts with chocolate and caramel.</p>
+                        </div><strong>₹250</strong>
+                    </div><button class="add-button" data-add="donut">Add to bag <span>+</span></button>
+                </article>
+                <article class="product-card">
+                    <div class="product-image"><img
+                            src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=700&q=80"
+                            alt="Grilled steak with vegetables"><span class="product-tag">FROM THE GRILL</span></div>
+                    <div class="product-info">
+                        <div>
+                            <h3>Grilled Steak</h3>
+                            <p>Tender grilled steak, roasted vegetables and garden herbs.</p>
+                        </div><strong>₹720</strong>
+                    </div><button class="add-button" data-add="steak">Add to bag <span>+</span></button>
+                </article>
+                <article class="product-card">
+                    <div class="product-image"><img
+                            src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=700&q=80"
+                            alt="Wood-fired pizza topped with basil"><span class="product-tag">WOOD FIRED</span></div>
+                    <div class="product-info">
+                        <div>
+                            <h3>Italian Burrata Pizza</h3>
+                            <p>Wood-fired crust with burrata, basil and ripe tomatoes.</p>
+                        </div><strong>₹420</strong>
+                    </div><button class="add-button" data-add="pizza">Add to bag <span>+</span></button>
+                </article>
+                <article class="product-card">
+                    <div class="product-image"><img
+                            src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=700&q=80"
+                            alt="Rich chocolate milkshake"><span class="product-tag">A LITTLE TREAT</span></div>
+                    <div class="product-info">
+                        <div>
+                            <h3>Chocolate Shake</h3>
+                            <p>Rich chocolate, cold milk, soft cream and chocolate chips.</p>
+                        </div><strong>₹280</strong>
+                    </div><button class="add-button" data-add="shake">Add to bag <span>+</span></button>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer"><a class="logo" href="index.html">PetPooja<span>✳</span></a>
+        <p>Thoughtful food. Unhurried evenings.</p>
+        <nav><a href="about.html">About</a><a href="menu.html">Menu</a><a href="contact.html">Contact</a><a
+                href="login.html">Account</a></nav><small>© 2026 PetPooja · Jaipur</small>
+    </footer>
+    <div class="toast" role="status" aria-live="polite"></div>
+</body>
+
+</html>

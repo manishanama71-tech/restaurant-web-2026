@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign In — Lumora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header class="site-header"><a class="logo" href="index.html">PetPooja<span>✳</span></a><button class="menu-toggle"
+            aria-label="Open navigation" aria-expanded="false">☰</button>
+        <nav class="main-nav"><a href="index.html">Home</a><a href="about.html">About</a><a href="menu.html">Menu</a><a
+                href="special.html">Special</a><a href="gallery.html">Gallery</a><a href="contact.html">Contact</a>
+        </nav>
+        <div class="header-actions"><a class="account-link" href="login.html" aria-current="page">Sign in</a><a
+                class="cart-link" href="checkout.html">Bag <span class="cart-count">0</span></a><a class="nav-cta"
+                href="reservation.html">Reserve a table</a></div>
+    </header>
+    <main class="account-page">
+        <section class="account-photo"><img
+                src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=1200&q=85"
+                alt="A chef preparing a meal at Lumora">
+            <div>
+                <p class="eyebrow light">A SEAT WITH YOUR NAME ON IT</p>
+                <h1>Welcome back<br>to <em>Lumora.</em></h1>
+            </div>
+        </section>
+        <section class="account-form-wrap">
+            <form class="form-card account-card" id="login-form">
+                <p class="eyebrow">YOUR PetPooja ACCOUNT</p>
+                <h2 id="account-title">Come on in.</h2>
+                <p id="account-subtitle">Sign in to keep your details close.</p>
+                <div class="form-grid"><label class="form-field full">Email address<input name="email" type="email"
+                            autocomplete="email" required placeholder="you@example.com"></label><label
+                        class="form-field full">Password<input name="password" type="password"
+                            autocomplete="current-password" required minlength="8"
+                            placeholder="At least 8 characters"></label></div><button
+                    class="button button-dark form-submit" type="submit" id="login-submit">Sign in
+                    <span>→</span></button>
+                <div class="form-message" aria-live="polite"></div>
+                <p class="account-switch" id="account-switch">New to Lumora? <button type="button"
+                        id="toggle-account">Create a demo account</button></p>
+                <p class="demo-disclaimer">Local starter account. Passwords are stored as salted hashes on this server;
+                    configure HTTPS, rate limits and a production identity setup before launch.</p>
+            </form>
+            <div class="account-welcome" id="account-welcome" hidden>
+                <p class="eyebrow">GOOD TO SEE YOU</p>
+                <h2>Welcome, <span id="account-email"></span></h2>
+                <p>Your account is ready. You can check out your bag or make a reservation.</p><a
+                    class="button button-dark" href="checkout.html">Go to your bag <span>→</span></a><button
+                    class="text-button" type="button" id="sign-out">Sign out</button>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer"><a class="logo" href="index.html">PetPooja
+        <span>✳</span></a>
+        <p>Thoughtful food. Unhurried evenings.</p>
+        <nav><a href="about.html">About</a><a href="menu.html">Menu</a><a href="contact.html">Contact</a><a
+                href="login.html">Account</a></nav><small>© 2026 PetPooja · Jaipur</small>
+    </footer>
+    <div class="toast" role="status" aria-live="polite"></div>
+</body>
+
+</html>
